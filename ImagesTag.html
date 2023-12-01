@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="
+    text-align: center;
+    color: rgb(24, 4, 92);
+    ">Learning To Use The Images Tag</h2>
+
+    <!-- <img src="./images.jpg" width="500px" height="500px" alt="image not found"/> -->
+    <!-- <img src="https://images.pexels.com/photos/18889494/pexels-photo-18889494/free-photo-of-minimalism.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" width="500px" height="500px" alt="image not found"> -->
+
+    <picture>
+        <!-- Media will load images based on the pixel size of screen -->
+        <source media="(min-width:650px)" srcset="./images.jpg"/>
+        <source media="(min-width:450px)" srcset="./images.jpg"/>
+        <!-- <img src="./images.jpg" width="500px" height="500px" alt="Images not found"> -->
+    </picture>
+
+        <!-- an image map generator -->
+        <img src="pexels-julien-brion-102061.jpg" usemap="#image-map">
+
+        <map name="image-map">
+            <area onclick="one()" target="" alt="" title="" href="" coords="1684,2034,2142,2231" shape="rect">
+            <area onclick="two()" target="" alt="" title="" href="" coords="198,1509,1287,2292" shape="rect">
+        </map>
+
+        <!-- javascript function for oclick activity -->
+    <script>
+        function one(){
+            alert("clicked on one");
+        }
+        function two(){
+            alert("clicked on two");
+        }
+    </script>
+</body>
+</html>

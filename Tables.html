@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            /* width:100%; */
+            border-collapse: collapse;
+            text-align: center;
+            /* color: #fff; */
+        }
+        td,th{
+            border:2px solid black;
+            padding: 10px;
+        }
+        th{
+            background-color: rgb(241, 204, 159);
+        }
+        tr:nth-child(even){
+            background-color: #bdb7b7;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center; color: aqua;">Learning to create table </h2>
+    <table style="width: 100%;">
+        <tr>
+            <th>Country</th>
+            <th>Country code</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india@gmail.com</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>US</td>
+            <td>usa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Nepal</td>
+            <td>NE</td>
+            <td>nepal@gmail.com</td>
+        </tr>
+    </table>
+    <br/>
+    <table style="width:auto;">
+        <!-- functioning of colgroup -->
+        <colgroup>
+            <col span="3" style="background-color: aquamarine;"/>
+        </colgroup>
+        <tr>
+            <th>Country</th>
+            <td>India</td>
+            <td>USA</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <th>Country Code</th>
+            <td>In</td>
+            <td>US</td>
+            <td>JP</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>in@gmail.com</td>
+            <td>usa@gmail.com</td>
+            <td>japan@gmail.com</td>
+        </tr>
+    </table>
+</body>
+</html>

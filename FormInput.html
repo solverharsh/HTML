@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./head.css">
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="url where to submit" method="GET">
+        <div>
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="First Name"  name="" id="fname">
+
+        <div>
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Last Name" name="" id="lname">
+        </div>
+        <!-- Us of fieldset to make it more attractive -->
+        <!-- <fieldset style="width:30%">
+        <legend style="text-align: center;">Your Gender :</legend>
+        <div>
+            <input type="radio" value="Male" id="gr">
+            <label for="gr">Male</label>
+        </div>
+
+        <div>
+            <input type="radio" value="Female" id="gr" checked>
+            <label for="gr">Female</label>
+        </div>
+        </fieldset> -->
+        <div>
+            <label for="gr">Enter Gender</label>
+            <input type="radio" value="Male" id="gr">
+            <label for="gr">Male</label>
+            <input type="radio" value="Female" id="gr" checked>
+            <label for="gr">Female</label>
+        </div>
+
+        <div>
+        <label for="pass">Enter password</label>
+        <input type="password" placeholder="Enter password" id="pass">
+        </div>
+
+        <!-- <div>
+            <label for="reset">Reset Information</label>
+            <button type="reset" id="reset">Reset</button>
+        </div> -->
+        <div>
+            <!-- selecting date from the calender -->
+            <label for="date">Select your date</label>
+            <input type="date" id="date">
+            <!-- selecting complete week from the calender -->
+            <label for="week">Select your week</label>
+            <input type="week" id="week">
+        </div>
+        <div>
+            <label for="editor">Select Editor</label>
+            <select name="Editors" id="">
+                <option value="vscode" id="editor">vscode</option>
+                <option value="sublime" id="editor">sublime</option>
+                <option value="notepad++" id="editor">notepad++</option>
+                <option value="pycharm" id="editor">pycharm</option>
+            </select>
+        </div>
+
+        <!-- <div>
+            <label for="editor">Select Editor</label>
+            <input list="editor" name="editors">
+            <datalist id="editor">
+                <option value="vscode">vscode</option>
+                <option value="sublime">sublime</option>
+                <option value="notepad++">notepad++</option>
+                <option value="pycharm">pycharm</option>
+            </datalist>
+        </div> -->
+        
+        <!-- selecting multiple options from dropdown -->
+        <div>
+            <label for="mul">Select Multiple</label>
+            <select name="Multiple Editors" id="" multiple>
+                <option value="vscode" id="mul">vscode</option>
+                <option value="sublime" id="mul">sublime</option>
+                <option value="notepad++" id="mul">notepad++</option>
+                <option value="pycharm" id="mul">pycharm</option>
+                <option value="Atom" id="mul">Atom</option>
+                <option value="Eclipse" id="mul">Eclipse</option>
+            </select>
+        </div>
+
+
+        <div>
+            <button type="submit" value="Submit">Submit</button>
+            <input type="reset" value="Reset">
+        </div>
+
+        </div>
+    </form>
+
+</body>
+</html>
