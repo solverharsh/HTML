@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.subscribe-button {
+  background-color: rgb(207, 25, 25);
+  color: #fff;
+  border: none;
+  height: 36px;
+  width: 110px;
+  border-radius: 2px;
+  margin: 10px;
+  cursor: pointer;
+  /* padding: 10px 20px; */
+}
+.join-button {
+  background-color: #fff;
+  color: rgb(37, 132, 200);
+  border: 1px solid rgb(37, 132, 200);
+  height: 36px;
+  width: 70px;
+  border-radius: 2px;
+  margin: 10px;
+  cursor: pointer;
+  /* padding: 10px 20px; */
+}
+.tweet-button {
+  background-color: rgb(37, 132, 200);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 80px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 10px;
+  cursor: pointer;
+  /* padding: 10px 20px; */
+}
+.first-row,
+.second-row {
+  margin: 15px;
+}
+.uber {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: none;
+  cursor: pointer;
+}
+.github {
+  background-color: rgb(46, 164, 79);
+  color: #fff;
+  height: 40px;
+  width: 100px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.bootstrap {
+  background-color: rgb(121, 82, 179);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.download {
+  background-color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 3px;
+}
