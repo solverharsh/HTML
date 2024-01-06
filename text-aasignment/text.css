@@ -51,3 +51,17 @@ p {
   background-color: red;
   cursor: pointer;
 }
+.box-notification {
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 10px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+/* Pseudo class */
+span:hover {
+  text-decoration: underline;
+  color: white;
+}
