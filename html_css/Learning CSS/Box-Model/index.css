@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(130, 234, 238);
+}
+.button {
+  padding: 10px 10px 10px 10px;
+  margin: 200px 700px;
+  background-color: rgb(2, 12, 9);
+  color: #ffff;
+  border: 3px solid whitesmoke;
+  /* border-radius: 10px; */
+}
+.heading {
+  text-align: center;
+  text-decoration: underline;
+  background-color: rgb(9, 6, 6);
+  color: #ffff;
+  padding: 20px 10px;
+}

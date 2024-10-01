@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#first {
+  color: white;
+  background-color: black;
+}
+#second {
+  color: white;
+  background-color: black;
+}
+button {
+  color: white;
+  background-color: darkred;
+}
+.heading {
+  color: #ffffff;
+  background-color: rgb(154, 205, 50, 1);
+}
+h2 {
+  color: #ffffff;
+  background-color: rgb(154, 205, 50, 0.8);
+}
+h3 {
+  color: #ffffff;
+  background-color: rgb(154, 205, 50, 0.5);
+}
+h4 {
+  color: white;
+  background-color: rgb(154, 205, 50, 0.3);
+}
+#box1 {
+  /* background-color: aqua; */
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/myntra_logo.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#box2 {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  /* visibility: hidden; */
+}

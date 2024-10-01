@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+  </head>
+  <link rel="stylesheet" href="exercise.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .heading {
+      text-align: center;
+      text-transform: capitalize;
+      background-color: black;
+      color: white;
+      padding: 10px;
+    }
+    .first {
+      height: 200px;
+      width: 200px;
+      background-color: rgb(12, 18, 16);
+      color: #ffff;
+      text-align: center;
+      padding: 80px;
+      margin: 10px;
+      box-sizing: border-box;
+      border: 3px solid rgb(227, 39, 39);
+      border-radius: 10px;
+    }
+    .button {
+      text-align: center;
+      background-color: black;
+      color: #ffff;
+      padding: 10px 15px 10px 15px;
+      margin: 10px;
+      border: 2px solid rgb(227, 39, 39);
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <header class="heading">
+      <h1>Playing with Box Model</h1>
+    </header>
+    <hr />
+    <br />
+    <main>
+      <div class="first">BOX</div>
+      <button class="button">Click Me</button>
+    </main>
+  </body>
+</html>

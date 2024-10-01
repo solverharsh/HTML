@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+}
+#heading {
+  color: yellowgreen;
+}
+.new_heading {
+  color: aqua;
+}
+#basic {
+  color: blueviolet;
+}
+#first,
+#second {
+  color: brown;
+}
+.heading_inside {
+  color: hotpink;
+}

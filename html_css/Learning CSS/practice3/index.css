@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.heading {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-color: rgb(72, 3, 17);
+  background-color: aquamarine;
+}
+
+#outer {
+  font-size: 25px;
+}
+#inner {
+  font-size: 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
